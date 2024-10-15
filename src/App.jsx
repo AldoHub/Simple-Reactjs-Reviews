@@ -8,6 +8,9 @@ import Ref from "./components/Ref";
 import User from "./components/User"
 import withLoader from "./components/withLoader"
 
+//useForm Hook
+import Form from "./components/form";
+
 const UserWithLoader = withLoader(User);
 
 
@@ -30,6 +33,10 @@ function App() {
      <hr />
      <h3>HOC</h3>
      <UserWithLoader></UserWithLoader>
+
+     <hr />
+     <h3>useForm Hook</h3>
+     <Form></Form>
     </>
 
    
